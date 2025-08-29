@@ -1,4 +1,4 @@
-package spring.ai.example.spring_ai_demo.demo.type;
+package com.thoughtful.demo.type;
 
 import lombok.Data;
 

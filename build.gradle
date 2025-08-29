@@ -6,7 +6,7 @@ plugins {
 
 }
 
-group = 'spring.ai.example'
+group = 'com.notegenie.admin'
 version = '0.0.1-SNAPSHOT'
 
 java {
@@ -22,14 +22,11 @@ repositories {
 }
 
 ext {
-	set('springAiVersion', "1.0.0-M1")
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework.ai:spring-ai-ollama-spring-boot-starter:1.0.0-M6'
 	implementation 'org.projectlombok:lombok:1.18.38'
-	implementation platform("org.springframework.ai:spring-ai-bom:${springAiVersion}")
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
