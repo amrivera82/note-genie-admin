@@ -1,4 +1,4 @@
-package com.thoughtful.demo.type;
+package com.thoughtful.notegenie.admin.type;
 
 import lombok.Data;
 
