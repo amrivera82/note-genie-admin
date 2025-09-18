@@ -1,0 +1,3 @@
+[submodule "note-genie-common"]
+	path = note-genie-common
+	url = https://github.com/amrivera82/note-genie-common.git
